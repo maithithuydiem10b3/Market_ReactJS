@@ -1,0 +1,114 @@
+/* footer-top */
+
+footer{
+    height: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: solid #f8f5f5eb;
+    border-width: 1px;
+}
+
+footer .container{
+    display: flex;
+    justify-content: inherit;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 82px;
+    margin-top: 15px;
+}
+footer .container .content .content-left{
+    margin-right: 30px;
+}
+
+footer .container .content-left {
+    text-align: left;
+    width: 64%;
+    display: flex;
+    margin-right: 58px;
+}
+footer 
+.container 
+.content .about{
+    width:40%;
+}
+
+footer .container .content.about h2 a{
+    position: relative;
+    color: rgb(20, 19, 19);
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+footer .container .content.about h2:before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+}
+
+footer .container .content.about #gt{
+    color: #999;
+    line-height: 1.7rem;
+}
+
+.links h2 a{
+    position: relative;
+    color: #444;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.links h2 a::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+}
+.content-left {
+    width: 25%;
+}
+.links{
+    position: relative;
+    width: 25%;
+ }
+ .links ul li{
+    list-style: none;
+}
+.links ul li a{
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.links ul li a:hover{
+    color: #4444;
+}
+
+/* Footer Bottom */
+.footerBottom {
+    display: flex;
+}
+
+.footerBottomTitile {
+    margin: 21px 78px;
+    padding: 14px 4px;
+}
+.footerBottomRight ul {
+    display: flex;
+    margin: 19px 170px;
+}
+
+.footerBottomRight li {
+    list-style: none;
+    margin: 16px 11px;
+}
+
+.imgIcon {
+    width: 40px;
+    height: 40px;
+}

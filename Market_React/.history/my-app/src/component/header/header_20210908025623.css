@@ -1,0 +1,513 @@
+
+.header {
+    width: 100%;
+    margin-top: 0;
+    position: relative;
+    padding-top: 50%;
+    background: url(..my-app/acest/img/baner.png) top center / cover no-repeat;
+}
+
+.headeImg {
+    width: 100%;
+    height: 650px;
+}
+
+.headerAll {
+    position: absolute;
+    bottom: 40px;
+    transform: translateX(-50%);
+    left: 50%;
+    text-align: center;
+    display: inline-flex;
+}
+
+.headerAll button {
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    background-color: transparent;
+    padding:0 6px;
+    cursor: pointer;
+    font-weight: 800;
+}
+.headerAll
+.btn-lorem {
+    border: 3px solid #321919;
+    border-radius: 2rem / 2rem;
+}
+.btn-lorem :first-child {
+    margin-right: 26px;
+}
+
+.header i {
+    margin: 0 8px;
+    display: flex;
+    align-items: center;
+    font-size: 4rem;
+}
+
+.market-lauch {
+    border: none;
+    margin: 0 56px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+
+.bannerTitle {
+    width: 865px;
+    height: 50px;
+}
+
+.bannerImage {
+    width: 100%;
+}
+
+h1{
+    position: absolute;
+    left: 70px;
+    bottom: -250px;
+    color:#f3f3f3;
+    text-align : left;
+}
+
+p {
+    position: absolute;
+    left: 70px;
+    bottom: -370px;
+    width: 500px;
+    color: #f3f3f3;
+    line-height: 1.5;
+}
+/* Best product */
+
+.banner {
+    position: relative;
+    margin-bottom: 85px;
+    margin-top: -54px;
+}
+
+.bannerProduct {
+    position: relative;
+}
+.background {
+    width: 100%;
+    height: 700px;
+    background-color: #fcd32a;
+}
+
+.bannerProduct
+.bannerProductTittle h1 {
+    position: absolute;
+    bottom: 90%;
+    left: 40%;
+    color:#f96400;
+}
+
+.bannerProduct 
+.bannerProductTittle 
+#productTittle {
+    position: absolute;
+    bottom: 81%;
+    left: 30%;
+    text-align: center;
+    color: #df6f2e;
+}
+/* Product Mobile Number */
+
+.ProductMobileImg {
+    width: 325px;
+    height: 325px;
+}
+.ProductMobileNumber {
+    width: 47px;
+    height: 47px;
+    position: relative;
+    margin-left: -26px;
+    position: relative;
+}
+
+.Productstar {
+    position: absolute;
+    width: 68px;
+    top: 19px;
+    left: 21px;
+}
+
+#number{
+    position: absolute;
+    top: 36px;
+    left: 46px;
+    font-size: 1.2rem;
+    font-family: fantasy;
+    text-decoration: underline;
+}
+
+
+/* Product Info */
+.ProductMobile {
+    position: relative;
+    margin-right: -5px;
+    align-items: center;
+}
+.ProductMobile
+.ProductMobileInfo {
+    display: flex;
+    margin-left: 20px;
+    margin-top: -7%;
+    padding: 7px;
+    align-items: center;
+    border-style: ridge;
+    width: 77%;
+    border-width: 3px;
+    border-color: #020001;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.ProductMobile-go {
+    background-color: black;
+    width: 44px;
+    height: 40px;
+    border-radius: 50px;
+    position: relative;
+    cursor: pointer;
+}
+.ProductMobile-go a {
+    color: #ffff;
+    position: absolute;
+    top: 8px;
+    left: 9px;
+    text-decoration: none;
+}
+
+.bannerProduct .bannerProductMobile {
+    position: absolute;
+    top: 189px;
+    left: 260px;
+    display: flex;
+}
+
+
+/* Product */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    --spacing: 15px;
+    --column: 5;
+    /* margin-left:calc(-1 * var(--spacing)); ; */
+    margin-left: 174px;
+    margin-right: 174px;
+    margin-bottom: 50px;
+}
+
+.card {
+    margin-bottom: 19px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: calc(calc(100% / var(--column)) - var(--spacing));
+    margin-left: var(--spacing);
+    /* margin-bottom: var(--column); */
+}
+
+.card-image {
+    /* height: 220px; */
+    width: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.card-top {
+    padding: 25px;
+}
+
+.card-tittle {
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    cursor: pointer;
+    /* padding: 0px; */
+    margin: -12px;
+    font-size: 14px
+}
+
+.card-bottom {
+    padding: 6px;
+    /* border-top: 1px solid #eee; */
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-price {
+    font-size: 13px;
+    font-weight: 300 ;
+}
+
+.card-like {
+    /* color:white; */
+    display: flex;
+    align-items: center;
+    padding: 5px 4px;
+    border-radius: 10px;
+}
+
+.card-like span {
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.card-like i {
+    font-size: 13px;
+    color: #e94f21;
+}
+.card-content {
+    /* height: calc(100%-200px); */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.card-top {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /*Chiếm hết phần còn lại*/
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-btn {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 800;
+    padding: 11px 47px;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    line-height: normal;
+    border: solid;
+}
+.card-btn {
+    position: absolute;
+    left: 45%;
+}
+
+/* BrandStory */
+.brand {
+    position: relative;
+    margin-top: 175px;
+}
+
+.brandStory {
+    position: relative;
+    top: 5px;
+}
+
+.brandImg {
+    width: 100%;
+
+}
+
+.brandStory 
+.brandTittle h1 {
+    position: absolute;
+    bottom: 80%;
+    left: 40%;
+    color:#fcd32a;
+}
+
+.brandStory 
+.brandTittle #contentTitle {
+    position: absolute;
+    bottom: 70%;
+    left: 30%;
+    text-align: center;
+    color: #a3a27f;
+}
+
+#contentTitle p {
+    font-size: 12px;
+}
+
+.brandStory 
+.brandSm {
+    position: absolute;
+    top: 25%;
+}
+
+.brand
+.brandSm {
+    position: absolute;
+    bottom: 91px;
+    width: 66%;
+    left: 17%;
+}
+
+.brandSmImg {
+    position: relative;
+    width: 25px;
+}
+
+.title {
+    position: absolute;
+    top: 30px;
+    left: 145px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: -webkit-pictograph;
+}
+
+h3 {
+    font-size: 19px;
+    font-family: system-ui;
+}
+
+.brandSmTittle h3{
+    position: absolute;
+    font-weight: 800;
+    bottom: 59%;
+    left: 47%;
+    color: #1a1a1a;
+    line-height: 2;
+}
+
+#br-title {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.brandSmTittle p {
+    position: absolute;
+    bottom: 41%;
+    left: 54%;
+    color: #1a1a1a;
+    font-weight: 400;
+    text-align: left;
+    width: 45%;
+}
+
+
+.brandSmTittle .brand-btn {
+    position: absolute;
+    bottom: 14%;
+    left: 54%;
+
+}
+
+/* Happend issue */
+
+.bannerHappend {
+    position: relative;
+    margin-top: -4px;
+}
+
+.happenedTop{
+    position: relative;
+    top: 5px;
+}
+
+.happenedImg {
+    width: 100%;
+    height: 750px;
+    position: relative;;
+}
+
+.happenedTop 
+.happenedTittle h1 {
+    position: absolute;
+    bottom: 85%;
+    left: 41%;
+    color:#110e03;
+    font-size: 2rem;
+}
+
+.happenedTop
+.happenedTittle 
+#happenedText {
+    position: absolute;
+    bottom: 75%;
+    left: 33%;
+    text-align: center;
+    color: #110e03;
+}
+
+.happend-btn {
+    position: absolute;
+    bottom: 65%;
+}
+
+.HappendBottom{
+    position: relative;
+    bottom: 50px;
+    /* height: 76px;
+    background-color:#fcd32a ; */
+}
+
+.HappendBottom
+.HappenTopImg {
+    width: 100%;
+    position: absolute;
+    bottom:50%;
+}
+
+
+/*  what happened */
+
+.happenedNext {
+    position: relative;
+    margin-top: 0px;
+}
+
+.happenedPostert{
+    position: relative;
+}
+
+.PostertImg {
+    width: 100%;
+    position: relative;
+}
+
+.happenedPostert 
+.happenedNextTittle h1 {
+    position: absolute;
+    bottom: 88%;
+    left: 40%;
+    color:#110e03;
+    font-size: 2.2rem;
+}
+
+.happenedPostert 
+.happenedNextTittle
+#happenedNextText {
+    position: absolute;
+    bottom: 80%;
+    left: 33%;
+    text-align: center;
+    color: #110e03;
+    font-size: 1.1rem;
+    font-weight: normal;
+}
+
+.happenedNext-btn {
+    position: absolute;
+    bottom: 71%;
+    left: 45%;
+}
+
+.poster {
+    position: absolute;
+    bottom: 19%;
+    left: 17%;
+    width: 66%;
+    height: 44%;
+
+}
